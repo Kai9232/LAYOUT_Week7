@@ -1,0 +1,152 @@
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    height: auto ;
+    vertical-align: middle;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: $white;
+}
+a:hover {
+    opacity: 0.8;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.text-white {
+    color: $white;
+}
+.text-2xl {
+    font-size: $font-2xl;
+    line-height: 106px;
+}
+.text-xl {
+    font-size: $font-xl;
+    line-height: 84px;
+}
+.text-lg {
+    font-size: $font-lg;
+    line-height: 42px;
+}
+.text-md {
+    font-size: $font-md;
+    line-height: 30px;
+}
+.text-base {
+    font-size: $font-reg;
+    line-height: 24px;
+}
+.lh-exLg {
+    line-height: 36px;
+}
+.fw-black {
+    font-weight: 900;
+}
+.fw-bold {
+    font-weight: 700;
+}
+.fw-medium {
+    font-weight: 500;
+}
+.fst-italic {
+    font-style: italic;
+}
+.text-center {
+    text-align: center;
+}
+.icon {
+    width: 60px;
+    height: 60px;
+}
+.d-flex {
+    display: flex;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.align-items-center {
+    align-items: center;
+}
+.mt-7 {
+    margin-top: $spacer*1.75;
+}
+.mt-14 {
+    margin-top: $spacer*3.5;
+}
+.mt-16 {
+    margin-top: $spacer*4;
+}
+.mb-1 {
+    margin-bottom: $spacer*0.25;
+}
+.mb-2 {
+    margin-bottom: $spacer*0.5;
+}
+.mb-3 {
+    margin-bottom: $spacer*0.75;
+}
+.mb-4 {
+    margin-bottom: $spacer*1;
+}
+.mb-5 {
+    margin-bottom: $spacer*1.25;
+}
+.mb-6 {
+    margin-bottom: $spacer*1.5;
+}
+.mb-7 {
+    margin-bottom: $spacer*1.75;
+}
+.mb-8 {
+    margin-bottom: $spacer*2;
+}
+.mb-10 {
+    margin-bottom: $spacer*2.5;
+}
+.mb-12 {
+    margin-bottom: $spacer*3;
+}
+.mb-14 {
+    margin-bottom: $spacer*3.5;
+}
+.mb-16 {
+    margin-bottom: $spacer*4;
+}
+.mb-17 {
+    margin-bottom: $spacer*4.25;
+}
+.mb-36 {
+    margin-bottom: $spacer*9;
+}
+.me-4 {
+    margin-right: $spacer*1;
+}
+.ms-3 {
+    margin-left: $spacer*0.75;
+}
+.pt-14 {
+    padding-top: $spacer*3.5;
+}
+.pt-16 {
+    padding-top: $spacer*4;
+}
+.pb-16 {
+    padding-bottom: $spacer*4;
+}
+.pb-40 {
+    padding-bottom: $spacer*10;
+}
